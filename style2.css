@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(270deg, rgb(11, 212, 145), blue);
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    background-color: white;
+    margin-left: 40%;
+    margin-top: 15%;
+    margin-right: 40%;
+    height: 340px;
+    width: 270px;
+    border-radius: 10px;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  label {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 15px;
+  }
+
+  input {
+    border: none;
+    background-color: darkgray;
+    width: 200px;
+    margin-left: 30px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: rgb(7, 130, 245);
+    text-align: center;
+    font-family: serif;
+    width: 150px;
+    height: 30px;
+    margin-left: 58px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+  }
+
+  /* Media Query for Screens Smaller than 768px */
+  @media (max-width: 768px) {
+    .container {
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 10%;
+    }
+
+    input {
+      width: 180px;
+      margin-left: 25px;
+    }
+
+    button {
+      width: 140px;
+      margin-left: 65px;
+    }
+  }
+
+  /* Media Query for Screens Smaller than 480px */
+  @media (max-width: 480px) {
+    .container {
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 5%;
+    }
+
+    input {
+      width: 160px;
+      margin-left: 20px;
+    }
+
+    button {
+      width: 130px;
+      margin-left: 70px;
+    }
+  }
